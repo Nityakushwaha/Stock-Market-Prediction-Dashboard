@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# Environment / secrets
+.env
+.streamlit/secrets.toml
+
+# Raw research data
+data/raw/
+
+# Generated processed data
+data/processed/
+
+# Generated research reports
+research/reports/*.csv
+research/reports/results_summary.md
+
+# OS / editor
+.DS_Store
+.vscode/financial-news-intelligence-platform-main.rar
